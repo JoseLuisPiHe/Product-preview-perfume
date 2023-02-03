@@ -1,0 +1,57 @@
+div.row{
+   background-color: aliceblue;
+   width: 50%;
+   position: absolute;
+   left: 30%;
+   top: 10%;
+   border-radius: 10px;
+}
+body{
+    background-color: antiquewhite;
+}
+div.imagen{
+    padding-left: 0;
+    padding-right: 0; 
+}
+.precio2{
+    font-size: 1rem;
+}
+img{
+    width: 300px;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+}
+h1,h2{
+font-family: 'Fraunces', serif; 
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+div.precios{
+    display: flex;
+}
+.precioverde{
+    color: darkcyan;
+}
+@media(max-width: 800px){
+    img{
+        
+        width: 9cm;
+        height: 5cm;
+        border-top-left-radius:10px ;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    div.row{
+        width: 50%;
+        text-align: left;
+        position: absolute;
+        left: 30%;
+        top: 10%;
+        padding-bottom: 30px;
+    }
+    .btn{
+        margin-left: 30%;
+    }
+}
+
